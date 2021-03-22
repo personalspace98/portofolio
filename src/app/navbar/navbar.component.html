@@ -1,0 +1,55 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand" (click)="scrollTo('#home')"><img class="img-fluid logo" src="assets/home/logo_small.jpg"
+                alt="logo" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto smooth-scroll">
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scrollTo('#home')">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scrollTo('#about')" data-offset="100">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scrollTo('#skills')" data-offset="100">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scrollTo('#works')" data-offset="100">Work</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="scrollTo('#contact')" data-offset="100">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Social Icon  -->
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link" (click)="openUrl('https://www.fiverr.com/joeppol')"><i
+                            class="fab fa-facebook-f light-green-text-2"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <!-- Dribbble -->
+                    <a type="button" class="nav-link" (click)="
+          openUrl('http://www.google.com/maps/place/51.83188723744778, 5.846981512046685')
+        "><i class="fas fa-map-marker-alt light-green-text-2"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" (click)="openEmail()"><i class="fas fa-envelope light-green-text-2"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

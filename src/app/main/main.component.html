@@ -1,0 +1,701 @@
+<body class="developer">
+  <!-- Navigation & Intro -->
+  <header>
+    <!-- Intro Section -->
+    <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="
+        background-image: url('./assets/home/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      ">
+      <div class="mask rgba-white-strong">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+          <div class="row smooth-scroll">
+            <div class="col-md-12 pt-3">
+              <div class="white-text text-center pt-5">
+                <h1 class="display-2 mb-4 dark-grey-text wow fadeIn"
+                  [ng-typed]="{speed: 50, timeout: 0, hideCursor: 'false'}">
+                  I am Joep
+                </h1>
+
+                <h5 class="text-uppercase font-weight-bold wow fadeIn dev-text" data-wow-delay="0.4s">
+                  <div *ngIf="webDone">
+                    <mark [ng-typed]="{speed: 50, timeout: 1200, hideCursor: 'true'}">
+                      Blockchain enthusiastic
+                    </mark>
+                  </div>
+                  <div *ngIf="!webDone">
+                    <mark [ng-typed]="{speed: 50, timeout: 0, hideCursor: 'false'}">
+                      developer
+                    </mark>
+                  </div>
+                </h5>
+
+                <a (click)="scrollTo('#skills')" class="btn btn-floating btn-large wow fadeIn arrow"
+                  data-wow-delay="0.4s" data-offset="100" style="background-color: #4f66a7!important;"><i
+                    class="fas fa-angle-down" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation & Intro -->
+
+  <!-- Main layout -->
+  <main>
+    <!-- First container -->
+    <div class="container">
+      <!-- Section About -->
+      <section id="about" class="section feature-box mb-5">
+        <!-- Section title -->
+        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">
+          About <strong>me</strong>
+        </h2>
+
+        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">
+          My name is Joep and I from the Netherlands. My passion is developing
+          all websites and applications. My hobby is Blockchain technology.
+          I'm currently working on a blockchain in Node.js. See my <a (click)="scrollTo('#hobbyProject')">hobby
+            project</a> for more
+          information.
+        </p>
+
+        <!-- First row -->
+        <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
+          <!-- First column -->
+          <div class="col-md-4 mb-5">
+            <!-- Panel -->
+            <div class="card card-body hoverable">
+              <i class="fas fa-laptop fa-3x mb-4" aria-hidden="true"></i>
+
+              <h5 class="font-weight-bold text-uppercase mb-4">Freelancer</h5>
+
+              <p class="dark-grey-text">
+                Available for developing custom-made websites.
+              </p>
+            </div>
+            <!-- Panel -->
+          </div>
+          <!-- First column -->
+
+          <!-- Second column -->
+          <div class="col-md-4 mb-5">
+            <!-- Panel -->
+            <div class="card card-body yellow hoverable">
+              <i class="fas fa-code fa-3x mb-4" aria-hidden="true"></i>
+
+              <h5 class="font-weight-bold text-uppercase mb-4">Developer</h5>
+
+              <p class="dark-grey-text">
+                I love to develop complicated applications so I can dive into the problems.
+              </p>
+            </div>
+            <!-- Panel -->
+          </div>
+          <!-- Second column -->
+
+          <!-- Third column -->
+          <div class="col-md-4 mb-5">
+            <!-- Panel -->
+            <div class="card card-body hoverable">
+              <i class="fab fa-bitcoin fa-3x mb-4" aria-hidden="true"></i>
+
+              <h5 class="font-weight-bold text-uppercase mb-4">Blockchain</h5>
+
+              <p class="dark-grey-text">
+                I'm a supporter of blockchain, smart contracts and DEFI technology.
+              </p>
+            </div>
+            <!-- Panel -->
+          </div>
+          <!-- Third column -->
+        </div>
+        <!-- First row -->
+      </section>
+      <!-- Second section -->
+    </div>
+    <!-- First container -->
+
+    <!-- Second container -->
+    <div class="container-fluid" style="background-color: #f3f3f5;">
+      <div class="container py-4 pt-4">
+        <!-- Second section -->
+        <section id="skills">
+          <!-- First row -->
+          <div class="row py-5">
+            <!-- First column -->
+            <div class="col-lg-12 offset-lg-1 col-md-12 mb-2 wow fadeIn" data-wow-delay="0.4s">
+              <!-- Section heading -->
+              <div class="d-flex justify-content-start">
+                <h4 class="text-center text-uppercase mb-2 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">
+                  Framework <strong>skills</strong>
+                </h4>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold" align="justify">
+                Angular(8+)
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" style="width: 70%"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                (MDB)Bootstrap
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 69%">
+                </div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                Electron
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="78" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 78%"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                Node.js
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 80%">
+                </div>
+              </div>
+
+            </div>
+            <!-- First column -->
+
+            <!-- Second column -->
+            <div class="col-lg-12 offset-lg-1 col-md-12 mb-2 wow fadeIn" data-wow-delay="0.4s">
+              <!-- Second heading -->
+              <div class="d-flex justify-content-start">
+                <h4 class="text-center text-uppercase mb-2 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">
+                  Programming <strong>Skills</strong>
+                </h4>
+              </div>
+
+              <!-- Description -->
+              <p class="black-text text-uppercase font-weight-bold" align="justify">
+                Javascript/Typescript
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 83%;" aria-valuenow="83" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                HTML5
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 71%;" aria-valuenow="71" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                CSS/SCSS
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="64" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                PHP
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                JAVA
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 39%;" aria-valuenow="39" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="col-lg-12 offset-lg-1 col-md-12 mb-2 wow fadeIn" data-wow-delay="0.4s">
+              <!-- Section heading -->
+              <div class="d-flex justify-content-start">
+                <h4 class="text-center text-uppercase mb-2 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">
+                  Database <strong>skills</strong>
+                </h4>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold" align="justify">
+                Firebase(Cloud Firestore, Storage and Functions)
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+
+              <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                SQL
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 55%;">
+                </div>
+              </div>
+
+              <!-- <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">
+                Electron
+              </p>
+
+              <div class="md-progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                </div> -->
+            </div>
+
+            <!-- </div> -->
+          </div>
+          <!-- First row -->
+        </section>
+        <!-- Second section -->
+      </div>
+    </div>
+    <!-- Second container -->
+
+    <!-- Third container -->
+    <div class="container" id="hobbyProject">
+      <!-- Section About -->
+      <section class="section feature-box my-5 pb-5">
+        <!-- Section title -->
+        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">
+          Hobby <strong>project</strong>
+        </h2>
+
+        <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">
+          I have always been fascinated by blockchain. That's why I'm building my own blockchain in Node.js. The
+          blockchain
+          works by connecting sockets(P2P). After a socket it connected it will sync up to the latest block and
+          you're ready to go.<br> <br>
+          This project isn't finished yet and the project is a private repo on Github. If you'd like to see the code
+          send
+          me an e-mail and I will invite you to the repo.
+        </p>
+
+        <!-- Nav tabs -->
+        <ul class="nav md-tabs nav-justified blue" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">01. API</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">02. Features</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">03. Development</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content card">
+          <!-- Panel 1 -->
+          <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+            <br />
+
+            <div class="row mt-2">
+              <div class="col-2 text-center">
+                <i class="fas fa-search fa-3x mb-1 grey-text" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-9 mb-2">
+                <p class="dark-grey-text">
+                  The following API calls can be made:
+                </p>
+                <ol class="dark-grey-text">
+                  <li>Retrieving wallet/balance(explorer)</li>
+                  <li>Requesting a new public and private key</li>
+                  <li>Create transaction</li>
+                  <li>Retrieve all mined blocks</li>
+                  <li>Mine blocks but this wil be costly because if there are new blocks the blocks will be
+                    broadcasted to all the sockets that are connected</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- Panel 1 -->
+
+          <!-- Panel 2 -->
+          <div class="tab-pane fade" id="panel2" role="tabpanel">
+            <br />
+
+            <div class="row mt-2">
+              <div class="col-2 text-center">
+                <i class="fas fa-pencil-alt fa-3x mb-1 grey-text" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-9 mb-2">
+                <p class="dark-grey-text">
+                  The Node.js blockchain has all the default features of a blockchain. The blockchain mining systeem is
+                  a hybrid
+                  between POS and POW.
+                  Every wallet holder can buy up to 3 tickets. With these tickets the wallet holder can approve or
+                  decline a mined block.
+                  The blockchain aims to sell about 50.000 tickets. The price of a ticket is calculated by the amount of
+                  tickets that are bought. <br>
+                  After the miner mines a block there will be 3 randomly chosen tickets to approve or decline the newly
+                  mined block. There must be at least 2/3 approval.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Panel 2 -->
+
+          <!-- Panel 3 -->
+          <div class="tab-pane fade" id="panel3" role="tabpanel">
+            <br />
+
+            <div class="row mt-2">
+              <div class="col-2 text-center">
+                <i class="fas fa-code fa-3x mb-1 grey-text" aria-hidden="true"></i>
+              </div>
+
+              <div class="col-9 mb-2">
+                <p class="dark-grey-text">
+                  I'm currently working on the CLI for generating/importing wallets, sending transaction and checking
+                  balance. All features are currently working through Postman. With the CLI version you can easier
+                  manage your wallet.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Panel 3 -->
+        </div>
+        <!-- Tab panels -->
+      </section>
+      <!-- Section -->
+    </div>
+    <!-- Third container -->
+
+    <!-- Streak -->
+    <div class="streak streak-photo streak-md" style="
+        background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20%2811%29.jpg');
+      ">
+      <div class="mask flex-center rgba-indigo-strong">
+        <div class="white-text smooth-scroll mx-4">
+          <h2 class="h2-responsive wow fadeIn mb-5">
+            <i class="fas fa-quote-left" aria-hidden="true"></i> Talk is cheap.
+            Show me the code.
+            <i class="fas fa-quote-right" aria-hidden="true"></i>
+          </h2>
+
+          <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">
+            ~ Linus Torvalds
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- Streak -->
+
+    <!-- Fourth container -->
+    <div class="container">
+      <!-- Fourth section -->
+      <section id="works" class="section mb-5">
+        <!-- Section title -->
+        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">
+          My <strong>projects</strong>
+        </h2>
+
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto wow fadeIn my-5"></p>
+
+        <!-- First row -->
+        <div class="row wow fadeIn" data-wow-delay="0.4s">
+          <!-- First column -->
+          <div class="col-md-12 mb-5">
+            <!-- Lightbox -->
+            <div id="mdb-lightbox-ui"></div>
+            <div class="project">
+              <button mdbBtn color="primary" class="waves-light" type="button" (click)="vpn.toggle()" mdbWavesEffect>
+                <span>VPN website (this website is offline)</span>
+                <i class="fas fa-caret-down"></i>
+              </button>
+
+              <div class="projectImg" mdbCollapse #vpn="bs-collapse">
+                <div class="mdb-lightbox">
+                  <figure
+                    (click)="openUrl('https://firebasestorage.googleapis.com/v0/b/fiverr-6d4e7.appspot.com/o/porto_img%2Fvpn-review.png?alt=media&token=4d3dbc57-399d-49d5-b766-6d71b605feac')">
+                    <img src="../../assets/img/vpn-review.png" class="img-fluid z-depth-1" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lightbox -->
+          </div>
+          <div class="col-md-12 mb-5">
+            <!-- Lightbox -->
+            <div id="mdb-lightbox-ui"></div>
+            <div class="project plus">
+              <button mdbBtn color="primary" class="waves-light" type="button" (click)="plus.toggle()" mdbWavesEffect>
+                <span>
+                  50pluss.nl (made with Angular)
+                </span>
+                <i class="fas fa-caret-down"></i>
+              </button>
+
+              <div class="projectImg" mdbCollapse #plus="bs-collapse">
+                <div class="mdb-lightbox text-center">
+                  <figure
+                    (click)="openUrl('https://firebasestorage.googleapis.com/v0/b/gj-brieven.appspot.com/o/50pluss.png?alt=media&token=9e90609f-c953-4dec-80a7-2a8a9d2c2e61')">
+                    <img src="../../assets/img/50pluss.png" class="img-fluid z-depth-1" />
+                  </figure>
+                  <span>
+                    Visit the
+                    <a (click)="openUrl('https://50pluss.nl/')">
+                      website
+                    </a>
+
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lightbox -->
+          </div>
+          <div class="col-md-12 mb-5">
+            <!-- Lightbox -->
+            <div id="mdb-lightbox-ui"></div>
+            <div class="project bc">
+              <button mdbBtn color="primary" class="waves-light" type="button" (click)="bc.toggle()" mdbWavesEffect>
+                <span>
+                  Blockchain Node.js
+                </span>
+                <i class="fas fa-caret-down"></i>
+              </button>
+
+              <div class="projectImg" mdbCollapse #bc="bs-collapse">
+                <div class="mdb-lightbox text-center">
+                  <div>
+                    <img src="../../assets/img/main.png" class="img-fluid z-depth-1" />
+                  </div>
+                  <div>
+                    <img src="../../assets/img/pv.png" class="img-fluid z-depth-1" />
+                  </div>
+                  <span>I'm working on sending transaction through the CLI. When that is done I will add more
+                    photo's</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lightbox -->
+          </div>
+          <div class="col-md-12 mb-5">
+            <!-- Lightbox -->
+            <div id="mdb-lightbox-ui"></div>
+            <div class="project">
+              <button mdbBtn color="primary" class="waves-light" type="button" (click)="yt.toggle()" mdbWavesEffect>
+                <span>Youtube downloader website (only made the website)</span>
+                <i class="fas fa-caret-down"></i>
+              </button>
+
+              <div class="projectImg" mdbCollapse #yt="bs-collapse">
+                <div class="mdb-lightbox text-center">
+                  <figure
+                    (click)="openUrl('https://firebasestorage.googleapis.com/v0/b/gj-brieven.appspot.com/o/yt.png?alt=media&token=5914bb1d-c1a3-478e-b862-85809f3d70ac')">
+                    <img src="../../assets/img/yt.png" class="img-fluid z-depth-1" />
+                  </figure>
+                  <span>
+                    Visit the
+                    <a (click)="openUrl('https://youtube-muziek-downloaden.nl/')">
+                      website
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lightbox -->
+          </div>
+          <!-- First column -->
+        </div>
+        <!-- First row -->
+      </section>
+      <!-- Fourth section -->
+
+      <hr />
+    </div>
+    <!-- Fourth container -->
+
+    <!-- Contact form -->
+    <div id="contact" class="container">
+      <!-- Section: Contact v.2 -->
+      <section class="section contact-section mt-4 mb-5">
+        <!-- Section heading -->
+        <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">
+          Contact <strong>me</strong>
+        </h2>
+
+        <div class="row wow fadeIn" data-wow-delay="0.4s">
+          <!-- First column -->
+          <div class="col-md-8 mb-5">
+            <form [formGroup]="contactForm" method="POST">
+              <!-- First row -->
+              <div class="row">
+                <!-- First column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <div class="md-form mb-0">
+                      <input type="text" id="form41" class="form-control" name="name" formControlName="name" required />
+                      <div *ngIf="contactForm.controls.name.hasError('required') && contactForm.controls.name.touched"
+                        class="error">
+                        This field is required
+                      </div>
+                      <label for="form41" class="">Your name</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Second column -->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <div class="md-form mb-0">
+                      <input type="text" id="form52" class="form-control" name="emailFrom" formControlName="emailFrom"
+                        required />
+                      <div
+                        *ngIf="contactForm.controls.emailFrom.hasError('email') && contactForm.controls.emailFrom.touched"
+                        class="error">
+                        Please enter a valid email.
+                      </div>
+                      <div
+                        *ngIf="contactForm.controls.emailFrom.hasError('required')&& contactForm.controls.emailFrom.touched"
+                        class="error">
+                        This field is required
+                      </div>
+                      <label for="form52" class="">Your email</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- First row -->
+
+              <!-- Second row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input type="text" id="form51" class="form-control" name="subject" formControlName="subject" />
+                    <div
+                      *ngIf="contactForm.controls.subject.hasError('required') && contactForm.controls.subject.touched"
+                      class="error">
+                      This field is required
+                    </div>
+                    <label for="form51" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!-- Second row -->
+
+              <!-- Third row -->
+              <div class="row">
+                <!-- First column -->
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <textarea type="text" id="form76" class="md-textarea form-control" rows="3" name="message" required
+                      formControlName="message"></textarea>
+                    <div
+                      *ngIf="contactForm.controls.message.hasError('required') && contactForm.controls.message.touched"
+                      class="error">
+                      This field is required
+                    </div>
+                    <label for="form76">Your message</label>
+                  </div>
+                </div>
+                <!-- Third row -->
+
+                <div class="text-center text-md-left mt-4">
+                  <button (click)="sendEmail()" type="submit" value="Send" color="primary"
+                    [disabled]="!contactForm.valid" class="btn btn-primary">
+                    <div class="spinner-border" role="status" *ngIf="sendingMail">
+                      <!-- <span class="visually-hidden">Loading...</span> -->
+                    </div>
+                    <span *ngIf="!sendingMail">
+                      Send
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- First column -->
+
+          <!-- Second column -->
+          <div class="col-md-4">
+            <ul class="contact-icons list-unstyled text-center">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+
+                <p>Netherlands, NL</p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone fa-2x"></i>
+
+                <p>+31 6 12345678</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope fa-2x"></i>
+
+                <p>joepvdpol1998@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!-- Second column -->
+        </div>
+      </section>
+      <!-- Section: Contact v.2 -->
+    </div>
+
+    <!-- Contact form -->
+    <div class="streak1">
+      <div class="flex-center">
+        <ul class="list-unstyled">
+          <li>
+            <h2 class="h2-responsive mt-5 wow fadeIn">
+              <p> Looking for an job
+                <span class="emoji">😊</span>
+              </p>
+            </h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Customers carousel -->
+  </main>
+  <!-- Main layout -->
+
+
+  <script>
+    $(function () {
+      $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
+    });
+
+    $(".navbar-collapse a").click(function () {
+      $(".navbar-collapse").collapse("hide");
+    });
+    /* WOW.js init */
+    new WOW().init();
+  </script>
+</body>
