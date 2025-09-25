@@ -1,6 +1,8 @@
 FROM node:16-alpine
 WORKDIR /app
 
+RUN apk add --no-cache python3 make g++
+
 # Copy package files from root path
 COPY ./package*.json ./
 
